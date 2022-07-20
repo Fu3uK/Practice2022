@@ -1,6 +1,7 @@
 import sys
 
 
+<<<<<<< Updated upstream
 def EightQueens():
     n = 8
     x = []
@@ -18,6 +19,9 @@ def EightQueens():
         return 1
     else:
         return -1
+=======
+
+>>>>>>> Stashed changes
 
 
 def except_hook(cls, exception, traceback):
@@ -25,9 +29,13 @@ def except_hook(cls, exception, traceback):
 
 
 if __name__ == '__main__':
+<<<<<<< Updated upstream
     print("Введите числа от 1 до 8")
     result = EightQueens()
     if result == 1:
         print("Ферзи не бьют друг друга.")
     else:
         print("Ферзи бьют друг друга.")
+=======
+    print()
+>>>>>>> Stashed changes
